@@ -1,0 +1,55 @@
+.teammates-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.team-card {
+  text-align: center;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+  background-color: rgb(245, 245, 245);
+}
+
+.team-card img{
+  max-width: 100%;
+}
+
+.name-job-container {
+  background-color: white;
+  padding: 2rem 0;
+}
+
+.name-job-container h3{
+  font-size: 1.5rem;
+  font-family: Poppins, sans-serif;
+}
+
+.name-job-container p {  
+  color: grey;
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1220px) {
+  .teammates-cards-grid {
+    grid-template-columns: repeat(2,1fr);
+    max-width: 700px;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  .teammates-cards-grid {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
+
+  
+  .team-card {
+    width: 100%;
+  }
+}

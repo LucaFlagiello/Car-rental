@@ -1,0 +1,90 @@
+.testimonials-section {
+  background-color: #f8f8f8;
+  padding: 10rem 0;
+}
+
+.testimonials-text-box {
+  margin: 0 auto;
+  max-width: 720px;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.testimonials-text-box h3{
+  font-size: 1.4rem;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+}
+
+.testimonials-text-box h2{
+  font-size: 2.6rem;
+  font-family: Poppins, sans-serif;
+  
+}
+
+.testimonials-text-box p{
+  color: #706f7b;
+  margin-top: 1rem;
+  line-height: 23px;
+}
+
+.reviews-container, 
+.flex-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.flex-container {
+  justify-content: space-between;
+}
+
+.pic-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.review-card {
+  background-color: white;
+  padding: 60px;
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,.08);
+}
+
+.review-card p {
+  max-width: 430px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.reviews-profile-pic {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.name-nation-container {
+  padding: 1rem 0 0 1rem;
+}
+
+.name-nation-container h3 {
+  font-family: Rubik, sans-serif;
+}
+
+.name-nation-container p {
+  font-size: 1rem;
+}
+
+.quotes {
+  color: #ff4d30;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1055px) {
+  .reviews-container {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+}

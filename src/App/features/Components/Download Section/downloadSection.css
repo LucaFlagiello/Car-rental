@@ -1,0 +1,69 @@
+.download-section {
+  background-color: #f8f8f8;
+  background-image: url('../../Assets/download_bg.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  padding: 6rem 0;
+}
+
+.download-text-container {
+  margin: 0 auto;
+  max-width: 1280px;;
+  padding: 0 2.5rem;
+}
+
+.download-text-container h2 {
+  font-size: 2.6rem;
+  font-family: 'Poppins', sans-serif;
+  max-width: 600px;
+}
+
+.download-text-container p {
+  font-family: 'Poppins', sans-serif;
+  color: grey;
+  font-size: 15px;
+  max-width: 560px;
+  margin: 1.7rem 0;
+}
+
+.download-btns-container {
+  display: flex;
+  column-gap: 30px;
+}
+
+.download-btns-container img {
+  cursor: pointer;
+  width: 220px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 785px) {
+  .download-section {
+    background-image: none;
+   
+    text-align: center;
+  }
+
+  .download-text-container {
+    max-width: 635px;
+  }
+
+  .download-btns-container {
+    justify-content: center;
+  }
+}
+
+
+
+@media screen and (max-width: 535px) {
+  .download-btns-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+  }
+}
+

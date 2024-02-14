@@ -1,0 +1,90 @@
+.faq-section {
+  background-image: url('../../Assets/coupè\ bg\ image.png');
+  padding: 5rem 0; 
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.faq-text-box {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 750px;
+}
+
+.faq-text-box h3,
+.faq-text-box h2,
+.faq-text-box p {
+  font-family: Poppins, sans-serif;
+}
+
+.faq-text-box h2 {
+  font-size: 2.2rem;
+}
+
+.faq-text-box p {
+  color: #706f7b;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.faq-elements-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4rem;
+  box-shadow: 0px 20px 30px rgba(0,0,0,0.1);
+}
+
+.question {
+  background-color: #fff;
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+  color: #010103;
+  cursor: pointer;
+}
+
+.question-btn-opened {
+  background-color: #ff4d30;
+    box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+    color: #fff;
+}
+
+.question-btn-closed, 
+.question-btn-opened {
+  align-items: center;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 3.5rem;
+  transition: .15s ease;
+  font-family: Poppins;
+  font-weight: 700px;
+}
+
+.question-btn-closed p,
+.question-btn-opened p {
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+.answer-closed {
+  color: #706f7b;
+  font-family: Rubik, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 4.5rem;
+  transition: .4s ease;
+}
+
+.answer-opened {
+  max-height: 38rem;
+  padding: 1.2rem 4.5rem;
+  transition: .4s ease;
+}

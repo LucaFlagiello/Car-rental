@@ -1,0 +1,135 @@
+footer {
+  padding: 5rem 2rem;
+}
+
+.columns-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap: 5rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding-top: 1.5rem;
+}
+
+.columns-container ul {
+  list-style: none;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.first-column-footer li:hover:not(:first-child),
+.second-column-footer li:hover:not(:first-child) {
+  color: #ff4d30;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.columns-container li:first-child:not(.car-rental-list-title), .columns-container span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+}
+
+.car-rental-list-title {
+  font-size: 1.5rem;
+}
+
+.car-rental-phone, .car-rental-email {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.first-column-footer p {
+  color: rgb(119, 119, 119);
+  max-width: 360px;
+  margin: .8rem 0;
+  line-height: 24px;
+}
+
+.second-column-footer li:not(:first-child){
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.third-column-footer {
+  width: 20em;
+}
+
+.fourth-column-footer input, button{
+  max-width: 250px;
+}
+
+.fourth-column-footer input {
+  background-color: rgb(207, 207, 207);
+  cursor: auto;
+  color: black;
+  margin-bottom: 8px;
+  width: 240px;
+}
+
+.fourth-column-footer button {
+  background-color: #ff4d30;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  min-width: 100%;
+  padding: 14px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 10px 15px 0 rgba(255,83,48,.25);
+}
+
+.fourth-column-footer button:hover {
+  box-shadow: 0 13px 15px 0 rgba(255,83,48,.25);
+  transition: 1 ease;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1226px) {
+  .columns-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 4rem;
+  }
+
+  .fourth-column-footer input{
+    min-width: 450px;
+  }
+}
+
+@media screen and (max-width: 956px) {
+  .columns-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fourth-column-footer input{
+    min-width: 450px;
+  }
+
+  footer ul {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .car-rental-phone, .car-rental-email {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  .fourth-column-footer input, .fourth-column-footer button{
+    min-width: 150px;
+    margin: 0 auto;
+  }
+
+  .fourth-column-footer button {
+    min-width: 282px;
+  }
+}

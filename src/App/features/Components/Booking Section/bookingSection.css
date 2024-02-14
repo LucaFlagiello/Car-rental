@@ -1,0 +1,108 @@
+b {
+  color: #ff4d30;
+}
+
+select, input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid #ccd7e6;
+  border-radius: 3px;
+  color: #ababab;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  outline: none;
+}
+
+input {
+  padding-right: 30px;
+}
+
+label {
+  display: flex;
+  column-gap: 10px;
+  font-weight: 600;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+label span {
+  color: #ff4d30;
+  font-weight: 800;
+  margin-left: -10px;
+}
+
+.booking-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  z-index: 99999999999999;
+}
+
+.booking-section h2 {
+  font-weight: 800;
+}
+
+.booking-container {
+  box-shadow: 10px 10px 20px 0 rgba(0,0,0,.2);
+  margin: 0 auto;
+  padding: 40px 60px;
+  background: url('../../Assets/booking\ background\ img.png');
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.booking-section form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2rem;
+  row-gap: 1rem;
+  column-gap: 2rem;
+}
+
+.booking-section form div {
+  width: 100%; /* Set the width of the container div */
+}
+
+.booking-section form input {
+  width: 100%; /* Set the width of the input fields */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.booking-btn {
+  background-color: #ff4d30;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: 800;
+  box-shadow: 0 15px 20px 0 rgba(255,83,48,.35);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: self-end;
+  height: 46px;
+  max-width: 100%;
+}
+
+/* MOBILE */ 
+
+@media screen and (max-width: 1000px) {
+  .booking-section form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .booking-section form {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .booking-container {
+    padding-left: 10px;
+  }
+}

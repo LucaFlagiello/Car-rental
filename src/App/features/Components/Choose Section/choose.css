@@ -1,0 +1,134 @@
+.choose-section {
+  background-image: url('../../Assets/choose\ gum\ effect\ img.png');
+  background-position: -225px 255px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.choose-section-elements-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.choose-section-img {
+  width: 100%;
+
+}
+
+.why-choose-text-box {
+  max-width: 500px;
+}
+
+.why-choose-text-box h3 {
+  font-size: 1.37rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+  font-family: Rubik, sans-serif;
+}
+
+.why-choose-text-box h2 {
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+
+.why-choose-text-box p {
+  color: #706f7b;
+  margin: 1.6rem 0;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.why-choose-text-box button {
+  background-color: #ff4d30;
+  border: 2px solid #ff4d30;
+  border-radius: 0.3rem;
+  box-shadow: 0 10px 15px 0 rgba(255,83,48,.35);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 1.8rem;
+  text-decoration: none;
+  transition: all .3s;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.why-choose-text-box button:hover {
+  box-shadow: 0 15px 15px 0 rgba(255,83,48,.35);
+}
+
+.choose-text-boxes-container,
+.choose-logo-text-container {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.choose-text-boxes-container {
+  column-gap: 10rem;
+}
+
+.choose-logo-text-container p {
+  max-width: 320px;
+  color: grey;
+}
+
+.choose-logo-columns-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.choose-logo-columns-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.choose-logo-columns-container h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: Poppins, sans-serif;
+}
+
+.choose-logo-columns-container p {
+  font-family: Rubik, sans-serif;
+  margin-top: 10px;
+}
+
+.greater-than{
+  color: white;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1182px) {
+  .why-choose-text-box {
+    text-align: center;
+  }
+  
+  .why-choose-text-box button {
+    margin: 0 auto;
+  }
+  
+  .choose-text-boxes-container {
+    flex-direction: column;
+    row-gap: 6rem;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .choose-logo-text-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

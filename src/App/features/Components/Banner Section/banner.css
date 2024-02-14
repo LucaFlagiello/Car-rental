@@ -1,0 +1,35 @@
+.banner-elements-container {
+  background-color: #2d2d2d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  padding: 4.2rem;
+}
+
+.banner-elements-container h2 {
+  font-size: 3.2rem;
+  font-family: Poppins;
+}
+
+.banner-elements-container p {
+  font-size: 1.5rem;
+}
+
+.banner-elements-container span {
+  color: #ff4d30;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 670px) {
+  .banner-elements-container h2{
+    font-size: 2.3rem;
+  }
+}
