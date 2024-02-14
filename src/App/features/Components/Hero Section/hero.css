@@ -282,7 +282,11 @@ nav button:hover {
   }
 }
 
-@media screen and (max-width:489px) {
+@media screen and (max-width:489px) and (max-height:776px) {
+  .hero-section {
+    margin-top: 6rem;
+  }
+  
   .hero-btns-container {
     flex-direction: column;
     row-gap: 1rem;
