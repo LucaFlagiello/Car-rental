@@ -12,5 +12,5 @@ A **car rental** website is an online platform that allows users to rent cars fo
 * React JS
 * Plain Css
 
-### Landing Page Screen📸
+### Home Page Screen📸
 ![landing_page-screen](https://github.com/LucaFlagiello/Car-rental/assets/86936499/68bc284a-f6b9-4734-9ab6-972663f5f967)
