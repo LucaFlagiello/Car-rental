@@ -8,7 +8,7 @@ A **car rental** website is an online platform that allows users to rent cars fo
 
 👉 Live Demo: [Car Rental](https://car-rental-ecru.vercel.app/)
 
-### Build with: 
+### Built with: 
 * React JS
 * Plain Css
 
